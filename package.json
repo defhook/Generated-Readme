@@ -1,14 +1,23 @@
 {
   "name": "static-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "this repo will allow me to generate readme files ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
-  "author": "",
+  "author": "Alvin Badillo",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^6.3.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/defhook/Generated-Readme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/defhook/Generated-Readme/issues"
+  },
+  "homepage": "https://github.com/defhook/Generated-Readme#readme"
 }
