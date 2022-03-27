@@ -74,7 +74,7 @@ const questions = [
     {
         type: "input",
         name: "tests",
-        message: "Write tests for your application and provide examples in this section",
+        message: "Write tests for your application and provide examples in this section:",
         validate: projectTests => {
             if (projectTests) {
                 return true;
@@ -86,7 +86,7 @@ const questions = [
     },
     {
         type: "checkbox",
-        name: "license",
+        name: "licenses",
         message: "What type of license applies to your code? (Check all that apply)",
         choices: ["None", "ISC", "MIT", "Mozilla"],
         validate: projectLicense => {
