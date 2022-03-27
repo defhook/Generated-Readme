@@ -85,7 +85,7 @@ const questions = [
         },
     },
     {
-        type: "checkbox",
+        type: "list",
         name: "licenses",
         message: "What type of license applies to your code? (Check all that apply)",
         choices: ["None", "ISC", "MIT", "Mozilla"],

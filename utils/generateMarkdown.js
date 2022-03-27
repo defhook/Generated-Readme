@@ -4,7 +4,19 @@ function renderLicenseBadge(license) { }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) { }
+function renderLicenseLink(licenses) {
+  let licenseLink = '';
+  if(licenses === 'ISC') {
+    licenseLink = 'https://opensource.org/licenses/ISC'
+  } else if (licenses === 'MIT') {
+    licenseLink = 'https://opensource.org/licenses/MIT/'
+  } else if (licenses === 'Mozilla') {
+    licenseLink = 'https://opensource.org/licenses/MPL-2.0'
+  } else {
+    licenseLink = ''
+  }
+  return licenseLink;
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -59,6 +71,9 @@ function generateMarkdown(data) {
   ### Github: https://github.com/${data.GitHub}
   ### or
   ### Email: ${data.email}
+
+  ## Licenses:
+  ### ${data.licenses}
 `;
 }
 
