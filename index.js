@@ -14,7 +14,7 @@ const questions = [
             if (projectTitle) {
                 return true;
             } else {
-                console.log("Please enter your GitHub name!");
+                console.log("Please enter your project name!");
                 return false;
             }
         },
