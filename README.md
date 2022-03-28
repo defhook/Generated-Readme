@@ -9,6 +9,7 @@ A generator will create a ReadMe file after the end user has interacted with the
 * Enquirer
 
 ## Contribution 
-Made by Alvin Badillo
+Made by Alvin Badillo🙉
 
 ## Video link of generator in action
+
