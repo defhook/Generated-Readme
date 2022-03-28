@@ -22,7 +22,7 @@ const questions = [
     {
         type: "input",
         name: "description",
-        message: "Please provide a brief description of your project.",
+        message: "Please provide a brief description of your project:",
         validate: projectDescription => {
             if (projectDescription) {
                 return true;
@@ -61,7 +61,7 @@ const questions = [
     {
         type: "input",
         name: "contributionGuidelines",
-        message: "Please provide input on who contributed to the development.",
+        message: "Please provide input on who contributed to the development:",
         validate: projectContributionGuidelines => {
             if (projectContributionGuidelines) {
                 return true;
