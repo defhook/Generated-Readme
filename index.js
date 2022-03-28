@@ -149,7 +149,7 @@ const writeToFile = fileContent => {
 // TODO: Create a function to initialize app
 // function to initialize app
 function init() {
-    console.log("welcome to the ReadMe Generator!");
+    console.log("Welcome to the ReadMe Generator!");
     inquirer.prompt(questions)
         .then(answer => {
             console.log(answer);
