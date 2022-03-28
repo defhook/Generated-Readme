@@ -129,24 +129,6 @@ const questions = [
 
 // TODO: Create a function to write README file
 // function to write README file
-/*const writeToFile = fileContent => {
-    return new Promise((resolve, reject) => {
-        fs.writeFile('generatedREADME.md', fileContent, err => {
-            if (err) {
-                reject(err);
-                return;
-            }
-            resolve({
-                ok: true
-            });
-        });
-    });
-};*/
-
-
-
-
-// TODO: Create a function to initialize app
 function writeToFile(fileName, data) {
 
     fs.writeFile(fileName, data, function (err) {
@@ -154,16 +136,11 @@ function writeToFile(fileName, data) {
         console.log('Generated ReadMe file Successfully!');
     });
 }
+
+
+
+// TODO: Create a function to initialize app
 // function to initialize app
-/*function init() {
-    console.log("Welcome to the ReadMe Generator!");
-    inquirer.prompt(questions)
-        .then(answer => {
-            console.log(answer);
-        const fileContent = generateMarkdown(answer);
-        writeToFile(fileContent)
-        });
-}*/
 function init() {
     console.log("Welcome to the ReadMe Generator!");
     inquirer.prompt(questions).then(answer => {
