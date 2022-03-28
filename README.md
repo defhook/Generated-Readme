@@ -6,7 +6,7 @@ A generator will create a ReadMe file after the end user has interacted with the
 ## Built with
 * JavaScript
 * NPM
-* Enquirer
+* Inquirer
 
 ## Contribution 
 Made by Alvin Badillo🙉
