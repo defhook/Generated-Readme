@@ -1,6 +1,6 @@
  
 
-  # Read me Generator
+  # Read Me Generator
 
   ## Licenses: MIT ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
   ### https://opensource.org/licenses/MIT/
@@ -23,7 +23,7 @@
   ### NPM and Inquirer
 
   ## Usage:
-  ### This program provides the foundation and guidance ona professional read me file. 
+  ### This program provides the foundation and guidance on a professional read me file. 
 
   ## Contributors:
   ### Alvin Badillo
